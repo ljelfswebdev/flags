@@ -17,10 +17,16 @@ const FlagChoices =  props => {
   ));
 
   return (
-    <form className="flag-form" onSubmit={handleSubmit}>
-      {inputs}
-      <StyledButton text="GUESS" type="submit"/>
-    </form>
+    <div>
+          <form className="flag-form" onSubmit={handleSubmit}>
+            {inputs}
+            <div>
+            <StyledButton text="GUESS" type="submit"/>
+          </div>
+          </form>
+          
+    </div>
+
   );
 }
 

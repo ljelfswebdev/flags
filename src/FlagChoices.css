@@ -1,8 +1,8 @@
   
 .flag-form {
-    display: flex;
-    max-width: 1000px;
+    display: flex-wrap;
+    max-width: 80%;
     margin: 0 auto;
-    justify-content: space-around;
+    justify-content: space-between;
     font-size: 1.3em;
   }
